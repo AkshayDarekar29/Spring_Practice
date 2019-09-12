@@ -1,0 +1,86 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans default-autowire="byType">
+
+   <!-- normal byType -->
+ 	<!-- <bean name="c" class="beans.Car" autowire="byType">
+ 		<property name="carName" value="BMW"></property>
+ 	</bean>
+ 	<bean name="e" class="beans.Engine">
+ 		<property name="model">
+ 			<value>X3</value>
+ 		</property>
+ 	</bean> -->
+ 	
+ 	<!-- byName -->
+ 	<!-- <bean name="c" class="beans.Car" autowire="byName">
+ 		<property name="carName" value="BMW"></property>
+ 	</bean>
+ 	<bean name="engine" class="beans.Engine">
+ 		<property name="model">
+ 			<value>X3</value>
+ 		</property>
+ 	</bean> -->
+ 	
+ 	<!-- autowiring by constructor -->
+ 	<!-- <bean name="c" class="beans.Car" autowire="constructor">
+ 		<property name="carName" value="BMW"></property>
+ 	</bean>
+ 	<bean name="engine" class="beans.Engine">
+ 		<property name="model">
+ 			<value>X3</value>
+ 		</property>
+ 	</bean> -->
+ 	
+ 	<!-- no autowiring -->
+ 	<!-- <bean name="c" class="beans.Car" autowire="no">
+ 		<property name="carName" value="BMW"></property>
+ 		<property name="engine" ref="e"></property>
+ 	</bean>
+ 	<bean name="e" class="beans.Engine">
+ 		<property name="model">
+ 			<value>X3</value>
+ 		</property>
+ 	</bean> -->
+ 	
+ 	<!-- autodetect -->
+	<!-- <bean name="c" class="beans.Car" autowire="autodetect">
+ 		<property name="carName" value="BMW"></property>
+ 	</bean>
+ 	<bean name="engine" class="beans.Engine">
+ 		<property name="model">
+ 			<value>X3</value>
+ 		</property>
+ 	</bean> -->
+ 	
+ 	<!-- byType ambiguity -->
+ 	<!-- <bean name="c" class="beans.Car" autowire="byType">
+ 		<property name="carName" value="BMW"></property>
+ 	</bean>
+ 	<bean name="e" class="beans.Engine" autowire-candidate="false">
+ 		<property name="model">
+ 			<value>X3</value>
+ 		</property>
+ 	</bean> 
+ 	<bean name="e1" class="beans.Engine">
+ 		<property name="model">
+ 			<value>Q3</value>
+ 		</property>
+ 	</bean>  -->
+ 	
+ 	<!-- default-autowire="byType" example -->
+ 	<bean name="c" class="beans.Car" >
+ 		<property name="carName" value="BMW"></property>
+ 	</bean>
+ 	<bean name="e" class="beans.Engine" autowire-candidate="false">
+ 		<property name="model">
+ 			<value>X3</value>
+ 		</property>
+ 	</bean> 
+ 	<bean name="e1" class="beans.Engine">
+ 		<property name="model">
+ 			<value>Q3</value>
+ 		</property>
+ 	</bean> 
+</beans>

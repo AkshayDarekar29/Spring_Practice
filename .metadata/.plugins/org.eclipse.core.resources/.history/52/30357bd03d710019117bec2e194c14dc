@@ -1,0 +1,15 @@
+package com;
+
+public class FactoryClass {
+	private String carName;
+	
+	public String getCarName() {
+		return carName;
+	}
+	public void setCarName(String carName) {
+		this.carName = carName;
+	}
+	public void getInstance(String){
+		
+	}
+}

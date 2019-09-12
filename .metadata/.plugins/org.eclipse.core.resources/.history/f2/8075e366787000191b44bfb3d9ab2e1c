@@ -1,0 +1,13 @@
+package com;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestClass {
+	public static void main(String[] args) {
+		ConfigurableApplicationContext ac= new ClassPathXmlApplicationContext("bean.xml");
+		//Student s= (Student) ac.getBean("studentBean");
+		
+	}
+}

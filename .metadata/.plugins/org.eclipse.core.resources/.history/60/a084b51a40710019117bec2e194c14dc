@@ -1,0 +1,27 @@
+package com;
+
+import org.springframework.beans.factory.FactoryBean;
+
+public class FactoryClass implements FactoryBean<T>{
+	private String carName;
+
+	@Override
+	public T getObject() throws Exception {
+		if(carName.equals("Swift")){
+			return new Swift();
+		}
+	}
+
+	@Override
+	public Class<?> getObjectType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isSingleton() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}

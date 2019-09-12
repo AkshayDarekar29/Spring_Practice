@@ -1,0 +1,18 @@
+JRE_LIB=C\:/Program Files/Java/jre1.8.0_161/lib/rt.jar
+JRE_SRC=
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=E\:/Eclipse/eclipse/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files/Java/jdk1.8.0_171/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=E\:/Eclipse/eclipse/plugins/org.junit_4.12.0.v201504281640/
+org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/Akshay/.m2/repository
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+org.eclipse.jdt.core.compiler.compliance=1.8
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.userLibrary.J2EE_Spring_Jars=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="E\:/Java Practice/Jars/commons-logging-1.2/commons-logging-1.2.jar"/>\r\n\t<archive path\="E\:/Java Practice/Jars/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-beans-4.3.0.RELEASE.jar"/>\r\n\t<archive path\="E\:/Java Practice/Jars/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-context-4.3.0.RELEASE.jar"/>\r\n\t<archive path\="E\:/Java Practice/Jars/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-core-4.3.0.RELEASE.jar" sourceattachment\="C\:/Users/Akshay/.m2/repository/org/springframework/spring-core/4.3.0.RELEASE/spring-core-4.3.0.RELEASE-sources.jar"/>\r\n\t<archive path\="E\:/Java Practice/Jars/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-expression-4.3.0.RELEASE.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.SpringWebMVC=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="E\:/Java Practice/Jars/commons-logging-1.2/commons-logging-1.2.jar"/>\r\n\t<archive path\="E\:/Java Practice/Jars/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-aop-4.3.0.RELEASE.jar"/>\r\n\t<archive path\="E\:/Java Practice/Jars/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-beans-4.3.0.RELEASE.jar" sourceattachment\="C\:/Users/Akshay/.m2/repository/org/springframework/spring-beans/4.3.0.RELEASE/spring-beans-4.3.0.RELEASE-sources.jar"/>\r\n\t<archive path\="E\:/Java Practice/Jars/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-context-4.3.0.RELEASE.jar"/>\r\n\t<archive path\="E\:/Java Practice/Jars/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-core-4.3.0.RELEASE.jar" sourceattachment\="C\:/Users/Akshay/.m2/repository/org/springframework/spring-core/4.3.0.RELEASE/spring-core-4.3.0.RELEASE-sources.jar"/>\r\n\t<archive path\="E\:/Java Practice/Jars/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-expression-4.3.0.RELEASE.jar"/>\r\n\t<archive path\="E\:/Java Practice/Jars/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-web-4.3.0.RELEASE.jar"/>\r\n\t<archive path\="E\:/Java Practice/Jars/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-webmvc-4.3.0.RELEASE.jar"/>\r\n</userlibrary>\r\n

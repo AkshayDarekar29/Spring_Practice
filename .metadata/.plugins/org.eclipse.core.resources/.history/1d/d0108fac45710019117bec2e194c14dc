@@ -1,0 +1,25 @@
+<!-- <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd"> -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+		xsd:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"> 
+
+	<bean id="car" class="com.Car">
+		<lookup-method name="drive" bean="e"/>
+	</bean>
+	<bean id="e" class="com.Engine">
+		<property name="name" value="myEngine"></property>
+	</bean>
+	
+	<bean id="swift" class="com.Swift">
+		<lookup-method name="driveInSwift" bean="e"/>
+	</bean>
+	
+	<bean id="abstract" class="com.AbstractCar">
+		<lookup-method name="print" bean="e"/>
+	</bean>
+	
+	
+	
+</beans>

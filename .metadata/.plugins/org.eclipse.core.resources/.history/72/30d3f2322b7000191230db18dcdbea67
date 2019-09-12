@@ -1,0 +1,30 @@
+package com;
+
+public class Student {
+	//private int id;
+	private Student s;
+	
+	private Student(){
+		throw new IllegalArgumentException();
+	}
+	/*public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}*/
+	public Student getS() {
+		return s;
+	}
+	public void setS(Student s) {
+		this.s = s;
+	}
+	
+	public static Student getObject(){
+		if(s == null){
+			s = new Student();
+			return s;
+		}
+		return s;
+	}
+}

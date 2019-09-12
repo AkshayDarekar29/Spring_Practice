@@ -1,0 +1,18 @@
+package com;
+
+public class FactoryClass {
+	private String carName;
+	
+	public String getCarName() {
+		return carName;
+	}
+	public void setCarName(String carName) {
+		this.carName = carName;
+	}
+	public Car getInstance(){
+		if(this.carName.equals("Swift")){
+			return new Swift();
+		}
+		return null;
+	}
+}

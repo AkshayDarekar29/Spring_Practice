@@ -1,0 +1,31 @@
+ <!-- <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:context="http://www.springframework.org/schema/context"
+		xsd:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context
+    	http://www.springframework.org/schema/context/spring-context-3.0.xsd"> 
+	 
+	 <context:annotation-config></context:annotation-config> 
+<!-- 	 <beans> 
+ -->	 <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+	
+<!-- 	<bean class="org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver"/>
+ -->	
+ 	<bean name="c" class="beans.Car">
+ 	</bean>
+ 	<bean name="engine" class="beans.Engine">
+ 		<property name="model">
+ 			<value>Q3</value>
+ 		</property>
+ 	</bean> 
+ 	<bean name="engine1" class="beans.Engine">
+ 		<property name="model">
+ 			<value>X3</value>
+ 		</property>
+ 	</bean> 
+ 	
+</beans>

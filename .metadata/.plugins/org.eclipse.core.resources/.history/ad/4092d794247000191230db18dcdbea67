@@ -1,0 +1,21 @@
+<!-- <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd"> -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+		xsd:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"> 
+
+<!-- below bean declaration will throw exception when spring version is below 4 -->
+<!-- <bean id="studentBean" class="com.Student">
+	<property name="name" value="akshay"></property>
+</bean> -->
+<bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+	<property name="staticMethod" value="beans/Student.setName"></property>
+	<property name="arguments">
+		<list>
+			<value>Akshay</value>
+		</list>
+	</property>
+</bean>
+
+</beans>

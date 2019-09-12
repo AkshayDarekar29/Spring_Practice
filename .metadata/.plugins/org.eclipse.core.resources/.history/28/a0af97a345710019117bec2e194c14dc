@@ -1,0 +1,23 @@
+package com;
+
+import javax.annotation.Resource;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+
+public class TestClass {
+	public static void main(String[] args) {
+		
+		ApplicationContext obj=new ClassPathXmlApplicationContext("bean.xml");
+		//interface
+		/*Car c = (Car) obj.getBean("car");
+		System.out.println(c.drive().getName());*/
+		
+		//concret class
+		Swift s= (Swift) obj.getBean("swift");
+		System.out.println(s.driveInSwift().getName());
+	}
+}

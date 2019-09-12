@@ -1,0 +1,9 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+		xsd:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+		
+<bean id="studentBean" class="com.Student">
+<property  name="name" value ="Akshay"/>
+</bean>
+</beans>

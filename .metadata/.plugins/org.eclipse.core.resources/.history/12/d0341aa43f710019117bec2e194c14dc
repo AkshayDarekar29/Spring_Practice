@@ -1,0 +1,27 @@
+package com;
+
+import org.springframework.beans.factory.FactoryBean;
+
+public class Student implements FactoryBean {
+	//private int id;
+	private static Student s;
+
+	@Override
+	public Object getObject() throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Class getObjectType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isSingleton() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}

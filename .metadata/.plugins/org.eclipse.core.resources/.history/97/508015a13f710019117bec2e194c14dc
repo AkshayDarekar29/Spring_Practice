@@ -1,0 +1,9 @@
+package com;
+
+import org.springframework.beans.factory.FactoryBean;
+
+public class Student implements FactoryBean {
+	//private int id;
+	private static Student s;
+	
+}

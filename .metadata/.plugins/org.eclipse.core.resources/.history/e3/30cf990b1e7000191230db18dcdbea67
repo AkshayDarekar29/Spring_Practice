@@ -1,0 +1,17 @@
+package beans;
+
+public class Girlfriend {
+	//private String gfName;
+	
+	//to check how to set static variable using DIs
+	private static String gfName;
+
+	public String getGfName() {
+		return gfName;
+	}
+
+	public static void setGfName(String gfName) {
+		Girlfriendss.gfName = gfName;
+	}
+	
+}

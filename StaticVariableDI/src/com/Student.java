@@ -1,0 +1,20 @@
+package com;
+
+public class Student {
+	
+	private static String name;
+	
+	public static void setName(String name) {
+		Student.name = name;
+	}
+	
+	public void hello(){
+		System.out.println("Hello "+ name);
+	}
+	
+	public static String getName() {
+		return name;
+	}
+
+	//to test git diff
+}

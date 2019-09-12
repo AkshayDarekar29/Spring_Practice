@@ -1,0 +1,8 @@
+package com;
+
+public class Swift{
+	
+	public void driveInSwift() {
+		System.out.println("Driving Swift");
+	}
+}

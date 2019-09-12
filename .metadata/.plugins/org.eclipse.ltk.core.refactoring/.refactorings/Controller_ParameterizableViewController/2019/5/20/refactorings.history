@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;success.jsp&apos; to &apos;WEB-INF&apos;&#x0D;&#x0A;- Original project: &apos;Controller_ParameterizableViewController&apos;&#x0D;&#x0A;- Destination element: &apos;WEB-INF&apos;&#x0D;&#x0A;- Original element: &apos;success.jsp&apos;" description="Copy file" element1="WebContent/WEB-INF/success.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1557678314103" target="/Controller_ParameterizableViewController/WebContent/WEB-INF" units="0" version="1.0"/>
+</session>

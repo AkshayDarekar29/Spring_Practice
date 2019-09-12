@@ -1,0 +1,17 @@
+package com;
+
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+
+public class Student {
+
+	public void myDestroy() {
+		System.out.println("ddestroying student bean");
+	}
+
+	
+	public void myInit() throws Exception {
+		System.out.println("Initializing student bean");		
+	}
+	
+}

@@ -1,0 +1,7 @@
+package com;
+
+public abstract class AbstractCar {
+	public void print() {
+		System.out.println("AbstractCar");
+	}
+}

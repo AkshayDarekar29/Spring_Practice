@@ -1,0 +1,10 @@
+package com;
+
+public class Student {
+	
+	private static String name;
+	
+	public static void setName(String name) {
+		Student.name = name;
+	}
+}

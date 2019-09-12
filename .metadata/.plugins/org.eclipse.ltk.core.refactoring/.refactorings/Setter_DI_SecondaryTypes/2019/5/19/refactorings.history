@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Resource_Inject_Named_Annotation/src/com&apos;&#x0D;&#x0A;- Original project: &apos;Setter_DI_SecondaryTypes&apos;&#x0D;&#x0A;- Destination element: &apos;Resource_Inject_Named_Annotation/src/com&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     beans.Engine.java&#x0D;&#x0A;     beans.Car.java" description="Copy compilation units" destination="=Resource_Inject_Named_Annotation/src&lt;com" element1="/src&lt;beans{Engine.java" element2="/src&lt;beans{Car.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1557290407126" units="2" version="1.0"/>
+</session>

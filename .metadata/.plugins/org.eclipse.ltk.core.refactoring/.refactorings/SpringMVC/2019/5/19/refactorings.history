@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringMVC/WebContent/WEB-INF/xml/FirstServlet.xml&apos; to &apos;second-Servlet.xml&apos;" description="Rename resource &apos;FirstServlet.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/xml/FirstServlet.xml" name="second-Servlet.xml" stamp="1557455164596" updateReferences="true"/>
+</session>

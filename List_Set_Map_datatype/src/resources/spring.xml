@@ -1,0 +1,52 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+<beans>
+	<bean id="studentBean" class="beans.Student">
+		<property name="listSubjects">
+			<list>  <!-- by default spring will create ArrayList object -->
+				<value>1</value>
+				<value>2</value>
+				<value>2</value>		
+			</list>
+		</property>
+		<property name="SetSubjects">
+			<set>  <!-- by default spring will create LinkedHashSet object -->
+				<value>1</value>
+				<value>2</value>
+				<value>1</value>
+				<value>2</value>
+			</set>
+		</property>
+		<!-- <property name="MapSubject">
+			<map> 
+				<entry key="1" value="math"/>
+				<entry key="2" value="marathi"/>
+				<entry key="3" value="hindi"/>
+				<entry key="3" value="science"/>
+			</map>
+		</property> -->
+		<property name="MapSubject">
+			<map>  <!-- by default spring will create LinkedHashMap object -->
+				<entry key="1">
+					<value>Marathi</value>
+				</entry>
+				<entry key="2">
+					<value>Hindi</value>
+				</entry>
+				<entry key="3">
+					<value>English</value>
+				</entry>
+				<entry key="3">
+					<value>Science</value>
+				</entry>
+			</map>
+		</property>
+		<property name="propSubjects">
+			<props> 
+				<prop key="1">marathi</prop>
+				<prop key="2">Hindi</prop>	
+			</props>
+		</property>
+	</bean>
+</beans>

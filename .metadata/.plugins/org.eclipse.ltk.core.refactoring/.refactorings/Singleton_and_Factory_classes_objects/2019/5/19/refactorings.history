@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Student.java&apos; to &apos;StaticDI_FactoryBean/src/com&apos;&#x0D;&#x0A;- Original project: &apos;Singleton_and_Factory_classes_objects&apos;&#x0D;&#x0A;- Destination element: &apos;StaticDI_FactoryBean/src/com&apos;&#x0D;&#x0A;- Original element: &apos;com.Student.java&apos;" description="Copy compilation unit" destination="=StaticDI_FactoryBean/src&lt;com" element1="/src&lt;com{Student.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1557285161956" units="1" version="1.0"/>
+</session>

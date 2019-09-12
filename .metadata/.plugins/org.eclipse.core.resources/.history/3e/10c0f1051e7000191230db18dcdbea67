@@ -1,0 +1,40 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+<beans>
+	<bean id="studentBean" class="beans.Student">
+		<property name="hobbies">
+			<list>
+				<value>Reading</value>
+				<value>Games</value>
+				<value>Flute</value>		
+			</list>
+		</property>
+		<!-- <property name="gf">
+			<list>
+				<ref bean="gf1"></ref>
+				<ref bean="gf2"></ref>
+				<ref bean="gf3"></ref>	
+			</list>
+		</property> -->
+	</bean>
+	<!-- <bean id="gf1" class="beans.Girlfriend">
+		<property name="gfName" value="rekha"/>
+	</bean>
+	<bean id="gf2" class="beans.Girlfriend">
+		<property name="gfName" value="surekha"/>
+	</bean>
+	<bean id="gf3" class="beans.Girlfriend">
+		<property name="gfName" value="sakshi"/>
+	</bean> -->
+	
+	<!-- <bean id="gf3" class="beans.Girlfriend">
+		<property name="gfName" value="sakshi"/>
+	</bean> -->
+	<bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+	    <property name="staticMethod" value="beans/Girlfriend.setGfName"></property>
+	    <property name="arguments">
+	    	<value>Akshay</value>
+	    </property>
+	</bean>
+</beans>

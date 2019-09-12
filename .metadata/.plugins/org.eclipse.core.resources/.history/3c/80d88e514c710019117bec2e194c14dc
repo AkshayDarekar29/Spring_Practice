@@ -1,0 +1,13 @@
+package com;
+
+import javax.annotation.Resource;
+
+public class Car {
+	
+	@Resource
+	private Engine engine;
+	public void printCarDetails(){
+		System.out.println("car model="+ engine.getModel());
+
+	}
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<!-- <beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+		xsd:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"> -->
+<beans>	
+<bean id="studentBean" class="com.Student" scope="prototype">
+<!-- <property  name="name" value ="Akshay"/>-->
+	<!-- <property name="name">
+		<value>Dada</value>
+	</property>
+	<property name="id">
+		<value>50</value>
+	</property> -->
+	<!-- <constructor-arg type ="String">
+		<value>15</value>
+	</constructor-arg>
+	<constructor-arg type ="String">
+		<value>15</value>
+	</constructor-arg> -->
+	<constructor-arg value="akshay" index="1" type="String"></constructor-arg>
+	<constructor-arg value="15" index="0" type="int"></constructor-arg>
+	
+</bean>
+
+</beans>

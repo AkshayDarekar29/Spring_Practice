@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LoadingSpringConfigFile/WebContent/WEB-INF/springConfigLoader.xml&apos; to &apos;springConfigLoader-servlet.xml&apos;" description="Rename resource &apos;springConfigLoader.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/springConfigLoader.xml" name="springConfigLoader-servlet.xml" stamp="1557643131444" updateReferences="true"/>
+</session>
